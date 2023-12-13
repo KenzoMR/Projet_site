@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="galarie_main"></section>
+    <nav>
+      <img id="logo" src="image/logo-noir.png" alt="Logo" />
+
+      <ul id="navLinks">
+        <li><a class="navLink" href="index.html">Accueil</a></li>
+        <li><a class="navLink" href="galerie.html">La Galerie</a></li>
+        <li><a class="navLink" href="oeuvres.html">Oeuvres</a></li>
+        <li><a class="navLink" href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-icon">&#9776;</div>
+    </nav>
+    <h1 class="galarie_heading">CONTACT</h1>
+    <div class="container">
+      <div class="galarie_content">
+        <h2 style="text-align: center">Contactez-Nous !</h2>
+        <p class="main_text">
+          Vous avez des questions, des demandes spéciales, ou vous souhaitez
+          simplement entrer en contact avec nous ? Nous sommes à votre
+          disposition. Remplissez le formulaire ci-dessous pour nous faire part
+          de vos commentaires ou de vos besoins. Nous serions ravis de vous
+          entendre et de discuter de l'art, de notre collection ou de toute
+          autre question artistique qui vous préoccupe. Chez la Galerie Dédal
+          des Couleurs, la communication est une porte ouverte vers l'art, alors
+          n'hésitez pas à nous contacter. Votre message est important pour nous,
+          et nous vous répondrons dans les plus brefs délais.
+        </p>
+      </div>
+    </div>
+    <section class="contact_form">
+      <div class="container">
+        <form action="">
+          <div class="left_main_form">
+            <div class="address_div">
+              <div class="imgDiv">
+                <img src="image/address.png" alt="" />
+              </div>
+              <div class="address_content">
+                <h3>Addresse</h3>
+                <p>10 RUE DE LA REPUBLIQUE, 75000 PARIS</p>
+              </div>
+            </div>
+            <div class="address_div">
+              <div class="imgDiv">
+                <img src="image/bxs_phone.png" alt="" />
+              </div>
+              <div class="address_content">
+                <h3>Coordonnées</h3>
+                <p>
+                  Tel: 01 63 45 85 56 <br />
+                  Email: dedal@gmail.com
+                </p>
+              </div>
+            </div>
+            <div class="address_div">
+              <div class="imgDiv">
+                <img src="image/bi_clock-fill.png" alt="" />
+              </div>
+              <div class="address_content">
+                <h3>Horaires</h3>
+                <p>
+                  Lundi-Vendredi: 8:00 - 18:00 <br />
+                  Samedi-Dimanche: 10:00 - 18:00
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="right_main_form">
+            <div class="Votre_Nom" style="margin-top: 10px">
+              <label for="Votre Nom">Votre Nom</label> <br />
+              <input type="text" name="Prénom Nom" />
+            </div>
+            <div class="Votre_Nom">
+              <label for="Votre Nom">Email</label> <br />
+              <input type="text" name="Prénom Nom" />
+            </div>
+            <div class="Votre_Nom">
+              <label for="Votre Nom">Objet</label> <br />
+              <input type="text" name="Prénom Nom" />
+            </div>
+            <div class="Votre_Nom">
+              <label for="Votre Nom">Demande</label> <br />
+              <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="Votre_Nom">
+              <button>Envoyer</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <hr />
+    <footer>
+      <div class="footer-columns">
+        <div class="column">
+          <img src="image/logo-noir.png" alt="Logo" />
+          <p>10 RUE DE LA REPUBLIQUE, 75000 PARIS</p>
+          <p>TÉLÉPHONE: 01 63 45 85 56</p>
+          <p>EMAIL: dedal@gmail.com</p>
+        </div>
+
+        <div class="column">
+          <h4>Newsletter</h4>
+          <p>
+            Inscrivez-vous à notre newsletter pour rester informé des dernières
+            actualités, des expositions à venir, et des opportunités artistiques
+            qui enrichiront votre vie.
+          </p>
+          <div class="footer_form_main">
+            <input
+              type="email"
+              class="newsletter-input"
+              placeholder="Enter your email"
+            />
+            <button>S’ABONNER</button>
+          </div>
+        </div>
+
+        <div class="column">
+          <h4>Social Media</h4>
+          <p>
+            Restez connectés avec notre galerie en nous suivant sur les réseaux
+            sociaux pour des mises à jour artistiques exclusives et les
+            dernières actualités.
+          </p>
+          <div class="social-icons">
+            
+            <img src="image/facebook.png" alt="" />
+            <img src="image/xtwitter.png" alt="" />
+            <img src="image/instagram.png" alt="" />
+            <img src="image/tiktok.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <p class="coypyright_text">
+        &copy; 2023 DEDAL DES COULEURS. All rights reverved.
+      </p>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const menuIcon = document.querySelector(".menu-icon");
+        const navLinks = document.getElementById("navLinks");
+
+        menuIcon.addEventListener("click", function () {
+          const isNavVisible =
+            getComputedStyle(navLinks).getPropertyValue("opacity") === "1";
+
+          if (isNavVisible) {
+            navLinks.style.opacity = "0";
+            setTimeout(() => {
+              navLinks.style.display = "none";
+            }, 500);
+          } else {
+            navLinks.style.display = "flex";
+            setTimeout(() => {
+              navLinks.style.opacity = "1";
+            }, 50);
+          }
+        });
+
+        window.addEventListener("resize", function () {
+          if (window.innerWidth > 768) {
+            navLinks.style.display = "flex";
+            navLinks.style.opacity = "1";
+          } else {
+            navLinks.style.opacity = "0";
+            setTimeout(() => {
+              navLinks.style.display = "none";
+            }, 500);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
